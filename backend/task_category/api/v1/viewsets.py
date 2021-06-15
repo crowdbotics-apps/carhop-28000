@@ -1,6 +1,6 @@
 from rest_framework import authentication
-from task_category.models import Category, Subcategory
-from .serializers import CategorySerializer, SubcategorySerializer
+from task_category.models import Subcategory, Category
+from .serializers import SubcategorySerializer, CategorySerializer
 from rest_framework import viewsets
 
 

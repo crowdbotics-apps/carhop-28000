@@ -1,10 +1,10 @@
 from rest_framework import authentication
-from location.models import TaskerLocation, MapLocation, CustomerLocation, TaskLocation
+from location.models import TaskLocation, CustomerLocation, TaskerLocation, MapLocation
 from .serializers import (
+    TaskLocationSerializer,
+    CustomerLocationSerializer,
     TaskerLocationSerializer,
     MapLocationSerializer,
-    CustomerLocationSerializer,
-    TaskLocationSerializer,
 )
 from rest_framework import viewsets
 

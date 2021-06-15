@@ -1,9 +1,9 @@
 from django.contrib import admin
 from .models import (
     PaymentTransaction,
-    PaymentMethod,
-    TaskerWallet,
     TaskerPaymentAccount,
+    TaskerWallet,
+    PaymentMethod,
     CustomerWallet,
 )
 

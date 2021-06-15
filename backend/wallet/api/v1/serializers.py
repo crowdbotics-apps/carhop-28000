@@ -1,9 +1,9 @@
 from rest_framework import serializers
 from wallet.models import (
     PaymentTransaction,
-    PaymentMethod,
-    TaskerWallet,
     TaskerPaymentAccount,
+    TaskerWallet,
+    PaymentMethod,
     CustomerWallet,
 )
 

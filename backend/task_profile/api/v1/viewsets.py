@@ -1,10 +1,10 @@
 from rest_framework import authentication
-from task_profile.models import TaskerProfile, CustomerProfile, Notification, InviteCode
+from task_profile.models import TaskerProfile, InviteCode, CustomerProfile, Notification
 from .serializers import (
     TaskerProfileSerializer,
+    InviteCodeSerializer,
     CustomerProfileSerializer,
     NotificationSerializer,
-    InviteCodeSerializer,
 )
 from rest_framework import viewsets
 

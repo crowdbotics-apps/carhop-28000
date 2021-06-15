@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Message, Task, Rating, TaskTransaction
+from .models import Task, Message, TaskTransaction, Rating
 
 admin.site.register(Rating)
 admin.site.register(Task)

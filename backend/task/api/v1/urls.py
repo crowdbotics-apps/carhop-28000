@@ -1,6 +1,6 @@
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-from .viewsets import MessageViewSet, TaskViewSet, RatingViewSet, TaskTransactionViewSet
+from .viewsets import TaskViewSet, MessageViewSet, TaskTransactionViewSet, RatingViewSet
 
 router = DefaultRouter()
 router.register("rating", RatingViewSet)

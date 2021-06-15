@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import TaskerLocation, MapLocation, CustomerLocation, TaskLocation
+from .models import TaskLocation, CustomerLocation, TaskerLocation, MapLocation
 
 admin.site.register(CustomerLocation)
 admin.site.register(TaskLocation)

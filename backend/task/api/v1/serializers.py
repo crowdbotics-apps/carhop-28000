@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from task.models import Message, Task, Rating, TaskTransaction
+from task.models import Task, Message, TaskTransaction, Rating
 
 
 class RatingSerializer(serializers.ModelSerializer):

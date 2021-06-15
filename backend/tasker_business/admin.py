@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import TaskerSkill, BusinessPhoto, Timeslot, TaskerAvailability
+from .models import TaskerAvailability, TaskerSkill, Timeslot, BusinessPhoto
 
 admin.site.register(BusinessPhoto)
 admin.site.register(TaskerAvailability)

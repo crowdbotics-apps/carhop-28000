@@ -1,10 +1,10 @@
 from rest_framework import authentication
-from task.models import Message, Task, Rating, TaskTransaction
+from task.models import Task, Message, TaskTransaction, Rating
 from .serializers import (
-    MessageSerializer,
     TaskSerializer,
-    RatingSerializer,
+    MessageSerializer,
     TaskTransactionSerializer,
+    RatingSerializer,
 )
 from rest_framework import viewsets
 

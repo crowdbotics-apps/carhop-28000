@@ -1,15 +1,15 @@
 from rest_framework import authentication
 from tasker_business.models import (
-    TaskerSkill,
-    BusinessPhoto,
-    Timeslot,
     TaskerAvailability,
+    TaskerSkill,
+    Timeslot,
+    BusinessPhoto,
 )
 from .serializers import (
-    TaskerSkillSerializer,
-    BusinessPhotoSerializer,
-    TimeslotSerializer,
     TaskerAvailabilitySerializer,
+    TaskerSkillSerializer,
+    TimeslotSerializer,
+    BusinessPhotoSerializer,
 )
 from rest_framework import viewsets
 
